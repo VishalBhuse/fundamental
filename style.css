@@ -368,103 +368,81 @@ z-index: 1;
 }
 
 /* ankit code start */
-.price{
-    display: flex;
-    border:1px solid red;
-    height:170px;
-    width:100%;
-    background-color: #e42329;
-    align-items: center;
-    margin-top: 200px;
+.footone{
+    background-color:  #E42329;
 }
-.price>div{
-    flex-direction: row;
-    width: 25%;
-    height: 100%;
-}
-.navbar11{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    color: grey;
-    padding: 30px;
-    
-}
-.h{
-    color: red;
-    font-size: 80px;
-    font-weight: lighter;
-    background-color: black;
-    padding-left: 40px;
-    margin-top: 0px;
-    display: flex;
-}
-.j:hover{
-    color: red;
-    cursor: pointer;
-}
-h4{
-    font-size: 18px;
-    color: grey;
-    margin-left: 500px;
-    margin-top: 50px;
-}
-span{
-    margin-left: 23px;
-    
-}
-span:hover{
-    color:red;
-    cursor: pointer;
-    transform: rotate(1,5);
-}
-
-.r{
+.footrs i{
     height: 70px;
     width: 70px;
     border: 2px solid white;
     color: white;
-    margin-left: 120px;
-    margin-top: 30px;
     text-align: center;
+    padding:15px;
     font-size: 40px;
 }
-  p1 {
+.footrs p{
     color: white;
     font-size: 18px;
-    text-align: center !important;
-    margin-left: 50px;
-    font-weight: bolder;
-
+    margin-top: 20px;
+    font-weight: bold;
 }
-.fa-indian-rupee-sign{
-    margin-top: 10px;
+.footfund1{
+    background-color: #000;
 }
-.fa-right-left{
-    margin-top: 10px;
+.footfund h1{
+    color: red;
+    font-size: 80px;
+    float: left;
+    padding-left: 30px;
 }
-.fa-wrench{
-    margin-top: 10px;
+.footfund3 {
+    text-align:right;
+    color: gray;
 }
-.fa-money-check-dollar{
-    margin-top: 10px;
-}
-
-.a{
-    background-color: #323232;
-    height: 60px;
-    padding-top: 30px;
-}
-.pc{
+.footfund3 ul{
+    list-style: none;
     margin-top: 50px;
 }
-p2{
-    color: red;
+.footfund3 ul li{
+    display: inline-block;
+    margin-left: 20px;
 }
-p3{
-    color: white;
-    font-weight: bold;
-   
+.footfund3 ul li:hover{
+    color: #E53035;
+}
+.footfund4 ul{
+    list-style: none;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.footfund4 ul li{
+display: inline-block;
+color: grey;
+margin-top: 30px;
+}
+
+.footfund5 p{
+    font-size: 14px;
+    color: #ffff;    
+    margin: 25px 60px;
+    font-weight: 700;
+}
+.footfund5 span{
+    color: #f00a11;
+    font-weight: 600;
+}
+.footfund6 p{ 
+    font-size: 14px;
+    text-align: right;
+    color: #ffff;    
+    margin: 25px 60px;
+    font-weight: 700;
+}
+.footfund6 span{
+    color: #f00a11;
+    font-weight: 600;
 }
 /* ankit code end */
 
