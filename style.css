@@ -367,3 +367,104 @@ z-index: 1;
 
 }
 
+/* ankit code start */
+.price{
+    display: flex;
+    border:1px solid red;
+    height:170px;
+    width:100%;
+    background-color: #e42329;
+    align-items: center;
+    margin-top: 200px;
+}
+.price>div{
+    flex-direction: row;
+    width: 25%;
+    height: 100%;
+}
+.navbar11{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: grey;
+    padding: 30px;
+    
+}
+.h{
+    color: red;
+    font-size: 80px;
+    font-weight: lighter;
+    background-color: black;
+    padding-left: 40px;
+    margin-top: 0px;
+    display: flex;
+}
+.j:hover{
+    color: red;
+    cursor: pointer;
+}
+h4{
+    font-size: 18px;
+    color: grey;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+span{
+    margin-left: 23px;
+    
+}
+span:hover{
+    color:red;
+    cursor: pointer;
+    transform: rotate(1,5);
+}
+
+.r{
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    color: white;
+    margin-left: 120px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+  p1 {
+    color: white;
+    font-size: 18px;
+    text-align: center !important;
+    margin-left: 50px;
+    font-weight: bolder;
+
+}
+.fa-indian-rupee-sign{
+    margin-top: 10px;
+}
+.fa-right-left{
+    margin-top: 10px;
+}
+.fa-wrench{
+    margin-top: 10px;
+}
+.fa-money-check-dollar{
+    margin-top: 10px;
+}
+
+.a{
+    background-color: #323232;
+    height: 60px;
+    padding-top: 30px;
+}
+.pc{
+    margin-top: 50px;
+}
+p2{
+    color: red;
+}
+p3{
+    color: white;
+    font-weight: bold;
+   
+}
+/* ankit code end */
+
